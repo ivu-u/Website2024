@@ -27,13 +27,97 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style2.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <main id="main">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header dark-background d-flex flex-column">
+        <div class="profile-img">
+            <img src="assets/img/ivu_pfp.png" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Ivu Creates</h1>
+        </a>
+
+        <div class="social-links text-center">
+            <a href="#" class="github"><i class="bi bi-github"></i></a>
+            <a href="#" class="google"><i class="bi bi-google"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+                <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li>
+                <li><a href="all_games.html"><i class="bi bi-file-earmark-text navicon"></i> All Games</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <main class="main">
+
         <!-- ======= Hero Section ======= -->
-        <section id="main-page" class="main-page">
+        <section id="background-section" data-image-height="900" style="--background-image: url('../img/mp_bckgs/heroImage.png');">
+            <h2>Section Title</h2>
+            <p>This section has a full-width background image that you can scroll to view fully.</p>
+        </section>
+
+        <!-- ======= About Me ======= -->
+        <section id="background-section" data-image-height="1200" style="--background-image: url('../img/mp_bckgs/aboutMe.png');">
+            
+            <section id="about-me" class="about-me">
+                <div class="my-container" style="margin-top: 100px; margin-bottom: 50px;">
+                    <h2 data-aos="fade-right">About Me</h2>
+    
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="assets/img/ivu_pfp.png" class="img-fluid" alt="">
+                        </div>
+    
+                        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" style="margin-top: 20px;">
+                            <h3>Game Developer &amp; Enthusiast.</h3>
+                            <p class="fst-italic" style="margin-top: 10px;">
+                                Just a humble developer trying to create things that make people *feel something*
+                            </p>
+                        </div>
+    
+                        <div class="row" style="margin-top: 50px; margin-bottom: 25px;">
+                            <div class="col-lg-6" data-aos="fade-right">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Atlanta GA, USA</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jasminecobb.dev@gmail.com</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-left">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Pursuing Degree:</strong> <span>Bachelors in Computational Media</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p data-aos="fade-right">
+                            Currently, I'm working on a game, “Bonbon,” through my school's Game Development Club (VGDev).
+                            Come check out our booth at DREAMHACK-Atl 2023! :>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- ======= Featured Games ======= -->
+        <section id="background-section" data-image-height="2000" style="--background-image: url('../img/mp_bckgs/featuredbckg.png');">
+            <h2>Section Title</h2>
+            <p>This section has a full-width background image that you can scroll to view fully.</p>
+        </section>
+
+
+        <!-- ======= Hero Section ======= -->
+        <section id="main-page" class="main-page section">
             <div class="card-container" data-aos="fade-up">
 
                 <div class="section-header">
@@ -42,26 +126,6 @@
                 </div>
 
                 <div class="row gy-5">
-
-                    <!--Card #1-->
-                    <!--<div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/purp.jpg" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Tutorials (WIP)</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>-->
-
                     <!--Card #2-->
                     <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
                         <div class="card-item position-relative h-100">
@@ -81,24 +145,6 @@
                             </a>
                         </div>
                     </div>
-                    <!--Card #3-->
-                    <!--<div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="all_games.html" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/purp.jpg" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>All Games</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </section>
