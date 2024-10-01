@@ -16,7 +16,11 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -27,378 +31,300 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style2.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <main id="main">
-        <!-- ======= Hero Section ======= -->
-        <section id="main-page" class="main-page">
-            <div class="card-container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h1>Hi, I'm Ivu!</h1>
-                    <p style="margin-top: -30px;">Am just a person who wants to make cool games :></p>
-                </div>
-
-                <div class="row gy-5">
-
-                    <!--Card #1-->
-                    <!--<div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/purp.jpg" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Tutorials (WIP)</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>-->
-
-                    <!--Card #2-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="#portfolio" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/purp.jpg" class="background-img">
-                                        <img src="assets/img/file.png" class="overlay-image">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Portfolio</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--Card #3-->
-                    <!--<div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="all_games.html" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/purp.jpg" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>All Games</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </section>
-
-        <!-- ======= Portfolio Section ======= -->
-        <div class="waves-container" data-aos="fade-up" data-aos-delay="100"></div>
-
-        <!--My Vision-->
-        <section id="portfolio" class="portfolio">
-
-            <div class="section-header" style="margin-top: 100px; margin-bottom: -40px; " data-aos="fade-up" data-aos-delay="100">
-                <h2>My Vision</h2>
-            </div>
-            <div class=" my-container" data-aos="fade-up" data-aos-delay="100" style="margin-bottom: 30px;">
-                <h3>
-                    Hello! I'm Jasmine, a Computational Media Major who loves basically everything about games. 
-                    My goal is to create games with a singular powerful concept that resonates throughout the experience 
-                    (the idea of capturing a fleeting emotion, idea, or moment in time). 
-                    There are so many interesting things in this world! 
-                    Even something as simple as the way traffic lights are optimized is something worth learning about to me.
-                </h3>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header dark-background d-flex flex-column">
+        <div class="top-section">
+            <div class="profile-img">
+                <img src="assets/img/ivu_pfp.png" alt="" class="img-fluid rounded-circle">
             </div>
 
+            <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+                <h1 class="sitename">Ivu Creates</h1>
+            </a>
 
-        </section>
-
-        <!--Reef stuff-->
-        <div class="reef-container">
-            <div class="waves-container" style="transform: scaleY(-1);"></div>
-            <div class="waves-container" style="margin-top: 598px"></div> <!-- the margin is based on img height-->
+            <div class="social-links text-center">
+                <a href="#" class="github"><i class="bi bi-github"></i></a>
+                <a href="#" class="google"><i class="bi bi-google"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
 
-        <!--Featured Games-->
-        <section id="portfolio" class="portfolio">
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+                <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li>
+                <li><a href="all_games.html"><i class="bi bi-file-earmark-text navicon"></i> All Games</a></li>
+            </ul>
+        </nav>
 
-            <div class="section-header" style="margin-top: 100px; margin-bottom: 50px;" data-aos="fade-up" data-aos-delay="100">
-                <h2>Featured Games</h2>
-            </div>
-
-            <!--Bonbon-->
-            <div class="my-container" style="margin-bottom: 250px;">
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="portfolio-title">
-                            <h2>Bonbon</h2>
-                            <p> <strong>My Roles: </strong> Programming Co-lead, Gameplay Programmer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Video Section -->
-                        <div class="portfolio-video">
-                            <div class="video-placeholder" data-video-id="video1">
-                                <img src="assets/img/bonbon_videoThumbnail.png" alt="Video 1 Thumbnail">
-                                <button class="play-button" data-video-id="video1">
-                                    <img src="assets/img/play_button.png" alt="Play Button" />
-                                </button>
-                            </div>
-                            <video class="actual-video" data-video-id="video1" width="" height="315" controls>
-                                <source src="assets/img/Bonbon_video.mp4" type="video/mp4" />
-                                <!--can add more links here if needed-->
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                    <p style="margin-top: 20px;" data-aos="fade-up" data-aos-delay="20">
-                        Bonbon is a 3D story-driven RPG about a boy who wants to follow his dreams, and his older sister who just wants to keep him safe.
-                        The main gameplay loop consists of turn-based combat interspersed with cute dialogue scenes.
-                    </p>
+    </header>
 
 
-                    <!-- Three Image Sections -->
-                    <div class="row" data-aos="fade-up" data-aos-delay="200">
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <a href="https://github.com/chrysly/project-bonbon">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/bonpic1.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                            <a href="https://github.com/chrysly/project-bonbon">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/bonpic2.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
+    <main class="main">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                            <a href="https://github.com/chrysly/project-bonbon">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/img/mochiConcept.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+        <!-- #region ======= Hero Section ======= -->
+        <section id="background-section" data-image-height="1050" style="--background-image: url('../img/mp_bckgs/heroImage.png');">
+            <h1 data-aos="fade-up" data-aos-delay="900"  style="text-align: center">Hi! I'm Ivu &#128025</h1>
+            <!-- <p>This section has a full-width background image that you can scroll to view fully.</p> -->
 
-                    <p data-aos="fade-up" data-aos-delay="300">
-                        Bonbon is the project I’m currently working on through the Georgia Tech Game Development Club (VGDev)!
-                        Come see our booth at DREAMHACK 2023 :>!!
-                    </p>
-                </div>
-                <!--END bonbon-->
-            </div>
-            <!--IKA-->
-            <div class="my-container" style="margin-bottom: 250px;">
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="portfolio-title">
-                            <h2>IKA</h2>
-                            <p> <strong>My Roles: </strong> Game/Style Designer, Gameplay Programmer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Video Section -->
-                        <div class="portfolio-video">
-                            <div class="video-placeholder" data-video-id="video2">
-                                <img src="assets/img/ika_thumbnail.png" alt="Video 2 Thumbnail">
-                                <button class="play-button" data-video-id="video2">
-                                    <img src="assets/img/play_button.png" alt="Play Button" />
-                                </button>
-                            </div>
-                            <video class="actual-video" data-video-id="video2" width="" height="315" controls>
-                                <source src="assets/img/ika.mp4" type="video/mp4" />
-                                <!--can add more links here if needed-->
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                    <p style="margin-top: 20px;" data-aos="fade-up" data-aos-delay="20">
-                        IKA is a 3D boss battle demonstration using Inverse Kinematics to control the octopus’s tentacles.
-                        The art style is based off Takashi Murakami’s works, distorting cute images into something disturbing.
-                    </p>
-                </div>
+            <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <img src="assets/img/mainPage/bottomRock.png" class="cover-image" alt="Cover Image">
+                <img src="assets/img/mainPage/girlTest.png" alt="Overlay Image" class="overlay-image">
 
-                <!-- Three Image Sections -->
-                <div class="row" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <a href="https://lominoe.itch.io/ika">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/tentacle.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
+                <ol class="carousel-indicators" data-aos="fade-up">
+                    <li data-bs-target="#carouselAutoplaying" data-bs-slide-to="0" class="active" aria-current="true"></li>
+                    <li data-bs-target="#carouselAutoplaying" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselAutoplaying" data-bs-slide-to="2"></li>
+                </ol>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <a href="https://lominoe.itch.io/ika">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/superflat_pop.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
+                <div class="carousel-inner" data-aos="fade-up">
+                  <div class="carousel-item active" data-bs-interval="15000">   <!-- edit how long the slide plays for -->
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/img/mainPage/bonVideo_carousel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="30000">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/img/mainPage/alrarune_slidesM1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="9000">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="assets/img/mainPage/illucent_carousel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                  </div>
+                
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev" data-aos="fade-up">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next" data-aos="fade-up">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <a href="https://lominoe.itch.io/ika">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/atl_devs.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <p data-aos="fade-up" data-aos-delay="300">
-                    The game was made for the 2023 AtlantaDev game jam.
-                </p>
-            </div>
-            <!--END IKA-->
-            <!--VOTING SIM-->
-            <div class="my-container" style="margin-bottom: 250px;">
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-6">
-                        <div class="portfolio-title">
-                            <h2>Voting Sim</h2>
-                            <p> <strong>My Roles: </strong> Pixel-Artist, Gameplay Designer, Level Creator</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Video Section -->
-                        <div class="portfolio-video">
-                            <div class="video-placeholder" data-video-id="video3">
-                                <img src="assets/img/g4c_thumbnail.png" alt="Video 3 Thumbnail">
-                                <button class="play-button" data-video-id="video3">
-                                    <img src="assets/img/play_button.png" alt="Play Button" />
-                                </button>
-                            </div>
-                            <video class="actual-video" data-video-id="video3" width="" height="315" controls>
-                                <source src="assets/img/votingsim.mp4" type="video/mp4" />
-                                <!--can add more links here if needed-->
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                    <p style="margin-top: 20px;" data-aos="fade-up" data-aos-delay="20">
-                        VotingSim is a top-down RPG that uses WarioWare style gameplay to teach players all the steps to register to vote!
-                        This game was made for the Games For Change 2022 Challenge, and was a finalist for the state of Georgia.
-                        The theme for this challenge was “Voices of a New Generation.”
-                    </p>
-                </div>
-
-                <!-- Three Image Sections -->
-                <div class="row" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <a href="https://vexedev.itch.io/voting-simulator">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/g4c_grass.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <a href="https://vexedev.itch.io/voting-simulator">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/g4c_boss.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <a href="https://vexedev.itch.io/voting-simulator">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/G4C_Click.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
-            <!--END VOTING SIM-->
-            <!--WFC-->
-            <div class="my-container" style="margin-bottom: 250px;">
-                <div class="row" data-aos="fade-up">
-                    <div class="portfolio-title" style="margin-bottom: 10px;">
-                        <h2>Wave Function Collapse Algorithm</h2>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="">
-                            <p> <strong>My Roles: </strong> Algorithm Architecture Co-Designer, Programmer</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Video Section -->
-                        <div class="portfolio-video">
-                            <div class="video-placeholder" data-video-id="video4">
-                                <img src="assets/img/wfc_thumbnail.png" alt="Video 4 Thumbnail">
-                                <button class="play-button" data-video-id="video4">
-                                    <img src="assets/img/play_button.png" alt="Play Button" />
-                                </button>
-                            </div>
-                            <video class="actual-video" data-video-id="video4" width="" height="315" controls>
-                                <source src="assets/img/wfc.mp4" type="video/mp4" />
-                                <!--can add more links here if needed-->
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                    <p style="margin-top: 20px;" data-aos="fade-up" data-aos-delay="20">
-                        The Wave Function Collapse is an algorithm that can be used to generate procedural levels in games.
-                        To showcase this algorithm, I created a small infinite dungeon crawler, “Cyber Chase,” as a prototype.
-                        The goal is to find enough coins to open a door that was generated in a random part of the map and reach the exit without being killed by enemies.
-                    </p>
-                </div>
-
-                <!-- Three Image Sections -->
-                <div class="row" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <a href="https://github.com/ivu-u/WFC_Alg">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/splat.gif" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <a href="https://github.com/ivu-u/WFC_Alg">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/wfc.gif" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <a href="https://github.com/ivu-u/WFC_Alg">
-                            <div class="portfolio-wrap">
-                                <img src="assets/img/ssMenu.png" class="img-fluid" alt="">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--END WFC-->
-
+            
         </section>
+        <!--#endregion -->
 
-        <!--About Me-->
-        <div class="waves-about-container" style=" background-color: #182A48;">
-            <div class="waves-container" style="transform: scaleY(-1);"></div>
-        </div>
+        <!-- #region ======= Featured Games ======= -->
 
-        <section id="about-me" class="about-me">
-            <div class="my-container" style="margin-top: 100px; margin-bottom: 50px;">
+        <section id="background-section" data-image-height="4000" style="--background-image: url('../img/mp_bckgs/featuredbckg.png');">
+            <div class="fuzzy-overlay"></div>
+            <div class="featured-games">
+                <h2 style="padding-top: 150px" data-aos="fade-in">Featured Games</h2>
+
+                <!--#region Bonbon  -->
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h1>Bonbon</h1>
+                    <h3>Programming Lead</h3>
+                </div>
+
+                <div class="row gy-4">
+                  <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <div class="portfolio-video img-fluid mb-4">
+                            <video class="featured video" data-video-id="video1" width="" height="315" controls autoplay muted>
+                                <source src="assets/img/mainPage/BonbonTeaserTrailer.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-5 d-flex align-items-center" data-aos="fade-left" data-aos-delay="250">
+                    <div class="content ps-0 ps-lg-5">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>&#129351</strong> <span>Best Art Dreamhack-ATL 2023</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Team Size:</strong> <span>35 Members</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Tools/Tech:</strong> <span>C#, Unity, Github</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Time:</strong> <span> Six Months</span></li>
+                        </ul>
+
+                        <!-- Button Links -->
+                        <div class="custom-button-container">
+                            <a href="https://lominoe.itch.io/bonbon">
+                                <button type="button" class="custom-button">Itch.io</button>
+                            </a>
+                            <a href="https://github.com/chrysly/project-bonbon">
+                                <button type="button" class="custom-button">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                  <p style="margin: 50px 0px" data-aos="fade-right" data-aos-delay="100">
+                    Bonbon is a story driven turn-based RPG, where you follow a young boy with big dreams and his older sister as they travel through a world of sweet fantasy.
+                    Bonbon was a project we created for our school's club VGDev, and it's main focus was to create a game with a unique art style.
+                  </p>
+                </div>
+
+                <!-- Three Image Sections -->
+                <div class="row f-images">
+                    <div class="col-lg-4 col-md-6 portfolio-item " data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/img/bonpic1.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/bonpic2.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/img/mochiConcept.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!--#endregion -->
+        
+                <!--#region Overboard  -->
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h1 style="margin-top: 300px">Overboard</h1>
+                    <h3>Programmer & Designer</h3>
+                </div>
+
+                <div class="row gy-4">
+                  <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <div class="portfolio-video img-fluid mb-4">
+                            <video class="featured video" data-video-id="video1" width="" height="315" controls autoplay muted>
+                                <source src="assets/img/mainPage/BonbonTeaserTrailer.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-5 d-flex align-items-center" data-aos="fade-left" data-aos-delay="250">
+                    <div class="content ps-0 ps-lg-5">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>&#129351</strong> <span>Best Gameplay GSU GGJ 2024</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Team Size:</strong> <span>4 Members</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Tools/Tech:</strong> <span>C#, Unity, Github</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Time:</strong> <span>48 Hour Game Jam</span></li>
+                        </ul>
+
+                        <!-- Button Links -->
+                        <div class="custom-button-container">
+                            <a href="https://github.com/Carlijavier5/Beat-the-Bass">
+                                <button type="button" class="custom-button">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                  <p style="margin: 50px 0px" data-aos="fade-right" data-aos-delay="100">
+                    An innocent fish-beating game. No animals were harmed in the makiing of this product! <br>
+                    We made this game for a 48 hour game jam, and while it's not at all polished, it did teach us a lot about Netcode!
+                  </p>
+                </div>
+
+                <!--#endregion -->
+            
+                <!--#region Illucent  -->
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h1 style="margin-top: 300px">Illucent</h1>
+                    <h3>Programmer & Designer</h3>
+                </div>
+
+                <div class="row gy-4">
+                  <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                        <div class="portfolio-video img-fluid mb-4">
+                            <video class="featured video" data-video-id="video1" width="" height="315" controls autoplay muted>
+                                <source src="assets/img/mainPage/illucent_trailer.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                  </div>
+
+                  <div class="col-lg-5 d-flex align-items-center" data-aos="fade-left" data-aos-delay="250">
+                    <div class="content ps-0 ps-lg-5">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Team Size:</strong> <span>4 Members</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Tools/Tech:</strong> <span>C#, Unity, Github</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Time:</strong> <span>[ON HOLD]</span></li>
+                        </ul>
+
+                        <!-- Button Links -->
+                        <div class="custom-button-container">
+                            <a href="https://github.com/chrysly/ProjectPrism">
+                                <button type="button" class="custom-button">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                  </div>
+                    <p style="margin: 50px 0px" data-aos="fade-right" data-aos-delay="100">
+                        Bonbon is a story driven turn-based RPG, where you follow a young boy with big dreams and his older sister as they travel through a world of sweet fantasy.
+                        Bonbon was a project we created for our school's club VGDev, and it's main focus was to create a game with a unique art style.
+                    </p>
+                </div>
+                <!--#endregion -->
+            
+            </div>
+                
+        </section>
+        <!--#endregion -->
+
+        <!-- #region ======= Upcoming ======= -->
+        <section id="background-section" data-image-height="1400" style="--background-image: url('../img/mp_bckgs/upcomingbckg.png');">
+            <div class="fuzzy-overlay"></div>
+
+            <div class="featured-games">
+                <h2 style="padding-top: 150px" data-aos="fade-in">Upcoming</h2>
+
+                <!--#region Altarune  -->
+                <div data-aos="fade-right" data-aos-delay="100">
+                    <h1>Altarune</h1>
+                    <h3>AI Lead</h3>
+                </div>
+                
+                <div class="row gy-4" >
+                    <div class="col-lg-7" data-aos="fade-right" data-aos-delay="100">
+                        <div class="portfolio-video img-fluid mb-4">
+                            <video class="featured video" data-video-id="video1" width="" height="315" controls autoplay muted>
+                                <source src="assets/img/mainPage/alrarune_slidesM1.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                      <div class="book-a-table">
+                        <p>Altarune is a tower offense game where you bring the towers to the enemies! 
+                            Altarune is the current project i'm working on, and it's being hosted by VGDev.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+                      <div class="content ps-0 ps-lg-5">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Team Size:</strong> <span>35 Members</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Tools/Tech:</strong> <span>C#, Unity, Github, Visual Studio</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Time:</strong> <span>Aug. 2024 - [CURRENT]</span></li>
+                        </ul>
+          
+                            <video class="f-images" style="width: 100%; outline: var(--outline-style)" controls autoplay muted loop>
+                                <source src="assets/img/mainPage/AltaruneIntroVid.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                      </div>
+                    </div>
+                  </div>
+                <!--#endregion -->
+            </div>
+        </section>
+        <!--#endregion -->
+
+        <!-- #region ======= About Me ======= -->
+        <section id="background-section" data-image-height="1000" style="--background-image: url('../img/mp_bckgs/aboutMe.png');">
+            <div class="fuzzy-overlay"></div>
+
+            <section id="about-me" class="about-me section">
                 <h2 data-aos="fade-right">About Me</h2>
 
                 <div class="row">
@@ -406,35 +332,90 @@
                         <img src="assets/img/ivu_pfp.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" style="margin-top: 20px;">
-                        <h3>Game Developer &amp; Enthusiast.</h3>
-                        <p class="fst-italic" style="margin-top: 10px;">
-                            Just a humble developer trying to create things that make people *feel something*
-                        </p>
-                    </div>
-
-                    <div class="row" style="margin-top: 50px; margin-bottom: 25px;">
-                        <div class="col-lg-6" data-aos="fade-right">
-                            <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Atlanta GA, USA</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jasminecobb.dev@gmail.com</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6" data-aos="fade-left">
-                            <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Pursuing Degree:</strong> <span>Bachelors in Computational Media</span></li>
-                            </ul>
+                    <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                        <div class="content">
+                            <h3>Game Developer &amp; Designer</h3>
+                            <p style="margin-top: 10px;">
+                                Hello Hello! I'm Jasmine, and I love making games. My specialty is programming (mainly in C#), words
+                                words words words words
+                                <br>
+                                <br>
+                                Currently I'm a Computational Media major at the Georgia Institute of Technology and an active member
+                                of our school's game development club VGDev.
+                            </p>
                         </div>
                     </div>
-                    <p data-aos="fade-right">
-                        Currently, I'm working on a game, “Bonbon,” through my school's Game Development Club (VGDev).
-                        Come check out our booth at DREAMHACK-Atl 2023! :>
-                    </p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--Footer-->
+        </section>
+        <!--#endregion -->
+
+        <!-- #region ======= Team Members ======= -->
+        <section id="background-section" data-image-height="1000" style="--background-image: url('../img/mp_bckgs/aboutMe.png');">
+            <div class="fuzzy-overlay"></div>
+
+            <div class="team">
+
+                <h2 style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">My Team</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Thank you to my wonderful team! It's because of them I'm able to reach these heights.</p>
+
+                <div class="row gy-4 justify-content-center">
+        
+                    <!-- Chris -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member">
+                            <img src="assets/img/mainPage/Chrys.png" class="img-fluid" alt="">
+                            <h4>Christopher Lee</h4>
+                            <span>Tech Artist</span>
+                            <div class="team-button-container">
+                                    <a href="chrysly.me">
+                                        <button type="button" class="team-button">Website</button>
+                                    </a>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+        
+                    <!-- Vu -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <img src="assets/img/mainPage/Vu.png" class="img-fluid" alt="">
+                            <h4>Vu Nguyen</h4>
+                            <span>3D Artist</span>
+
+                            <div class="team-button-container">
+                                <a href="https://www.artstation.com/vuxn">
+                                    <button type="button" class="team-button">ArtStation</button>
+                                </a>
+                            </div>
+
+                        </div>
+                  </div><!-- End Team Member -->
+        
+                  <!-- Carlos -->
+                  <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <img src="assets/img/mainPage/Carlos.png" class="img-fluid" alt="">
+                        <h4>Carlos Suarez</h4>
+                        <span>Programmer / Tools Developer</span>
+
+                        <div class="team-button-container"></div>
+                            <a href="https://github.com/Carlijavier5">
+                                <button type="button" class="team-button">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                  </div><!-- End Team Member -->
+        
+                  
+        
+                </div>
+        
+              </div>
+        </section>
+        <!--#endregion -->
+
+        <!-- #region ======= Footer ======= -->
         <section id="footer" class="footer">
             <div class="my-container" style="margin-top: 40px;">
                 <div class="row">
@@ -465,8 +446,8 @@
                     </div>
                 </div>
             </div>
-
         </section>
+        <!--#endregion -->
     </main>
 
     <!-- Vendor JS Files -->

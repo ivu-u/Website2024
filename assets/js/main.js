@@ -7,6 +7,7 @@
 */
 (function() {
   "use strict";
+  
 
   /**
    * Easy selector helper function
@@ -19,6 +20,7 @@
       return document.querySelector(el)
     }
   }
+  
 
   /**
    * Easy event listener function
@@ -285,6 +287,22 @@
             window.location.href = 'index.html';
         });
     });
+
+
+
+    window.addEventListener('load', function() {
+      const sections = document.querySelectorAll('[id^="background-section"]'); // Select all sections with IDs starting with 'background-section'
+      
+      sections.forEach(section => {
+          const imageHeight = section.getAttribute('data-image-height');
+          if (imageHeight) {
+              section.style.setProperty('--section-height', `${imageHeight}px`);
+          }
+      });
+  });
+
+
+
 
 })()
 

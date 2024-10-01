@@ -1,0 +1,3 @@
+                    <br>
+                    As a programming lead of Bonbon, I delgated tasks to our programmers and conducted code reviews.
+                    I created the Enemy AI system, Event Sequencer for in-battle dialogue, and helped rework the Battle State Machine.

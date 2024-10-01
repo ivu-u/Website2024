@@ -1,0 +1,130 @@
+<!-- ======= Featured Games ======= -->
+        <section id="background-section" data-image-height="1800" style="--background-image: url('../img/mp_bckgs/featuredbckg.png');">
+            <section id="featured-games" class="featured-games" data-aos="fade-up">
+                <h2>Featured Games</h2>
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                      <div class="card-box">
+                        <div class="card-img"> <img src="assets/img/bonpic1.png"> </div>
+
+                        <div class="card-content">
+                            <h1>Bonbon</h1>
+                            <h3> Programming Sublead</h3>
+                            
+                            <p style="margin: 32px 0">Provident nihil minus qui consequatur non omnis maiores. tempore et consequatur. text awejtfhbaise sdfap>
+                            
+                            <h3><u>Best Art Award</u></h3>
+                            <p>Dreamhack Atlanta SiegeCon Indie <br>
+                                Showcase 2023</p>
+                            
+                            <a href="service-details.html" class="view-link">View<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div><!-- End Service Item -->
+          
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-box">
+                            <div class="card-img">
+                                <img src="assets/img/bonpic1.png">
+                            </div>
+    
+                            <div class="card-content">
+                                <h1>Bonbon</h1>
+                                <h3> Programming Sublead</h3>
+                                
+                                <p>Provident nihil minus qui consequatur non omnis maiores. tempore et consequatur. text awejtfhbaise sdfap>
+                                
+                                <h3><u>Best Art Award</u></h3>
+                                <h3>Dreamhack Atlanta SiegeCon Indie Showcase 2023</h3>
+                                
+                                <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                          </div>
+                    </div><!-- End Service Item -->
+          
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-box">
+                            <div class="card-img">
+                                <img src="assets/img/bonpic1.png">
+                            </div>
+    
+                            <div class="card-content">
+                                <h1>Bonbon</h1>
+                                <h3> Programming Sublead</h3>
+                                
+                                <p>Provident nihil minus qui consequatur non omnis maiores. tempore et consequatur. text awejtfhbaise sdfap>
+                                
+                                <h3><u>Best Art Award</u></h3>
+                                <h3>Dreamhack Atlanta SiegeCon Indie Showcase 2023</h3>
+                                
+                                <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                          </div>
+                    </div><!-- End Service Item -->
+                
+                    
+                </div>
+
+            </section>
+        </section>
+
+
+
+
+<!-- ======= Featured Continued ======= -->
+        <section id="background-section" data-image-height="1800" style="--background-image: url('../img/mp_bckgs/aboutMe.png');">
+            <div class="featured-games">
+
+                <div class="row gy-4">
+                  <div class="col-lg-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <!-- <img src="assets/img/bonpic1.png" class="img-fluid mb-4" alt=""> -->
+                    <div class="portfolio-video img-fluid mb-4">
+                        <div class="video-placeholder" data-video-id="video1">
+                            <img src="assets/img/bonbon_videoThumbnail.png" alt="Video 1 Thumbnail">
+                            <button class="play-button" data-video-id="video1">
+                                <img src="assets/img/play_button.png" alt="Play Button" />
+                            </button>
+                        </div>
+                        <video class="actual-video" data-video-id="video1" width="" height="315" controls>
+                            <source src="assets/img/Bonbon_video.mp4" type="video/mp4" />
+                            <!--can add more links here if needed-->
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="book-a-table">
+                      <h3>Book a Table</h3>
+                      <p>+1 5589 55488 55</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+                    <div class="content ps-0 ps-lg-5">
+                      <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                      </p>
+        
+                      <div class="position-relative mt-4">
+                        <div class="portfolio-video img-fluid mb-4">
+                            <div class="video-placeholder" data-video-id="video2">
+                                <img src="assets/img/bonbon_videoThumbnail.png" alt="Video 2 Thumbnail">
+                                <button class="play-button" data-video-id="video2">
+                                    <img src="assets/img/play_button.png" alt="Play Button" />
+                                </button>
+                            </div>
+                            <video class="actual-video" data-video-id="video2" width="" height="315" controls>
+                                <source src="assets/img/wfc.mp4" type="video/mp4" />
+                                <!--can add more links here if needed-->
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <!-- <img src="assets/img/bonpic2.png" class="img-fluid" alt="">
+                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+        </section>
