@@ -16,6 +16,7 @@
     --background-color: #1c2055;
     --color-accent: #aa86cd;
     --color-sandy: #DBC093;
+    --color-blue: #181c50;
     --color-lighter-blue: #282e7b;
     --color-lightest-blue: #626acf;
 }
@@ -97,7 +98,7 @@ h6 {
 }
 
 /* Section styling */
-#background-section {
+#bckg1-section {
     width: 100%; /* Full width of the page */
     height: var(--section-height, 100vh);
     background-image: var(--background-image); /* Use the image set in the inline style */
@@ -113,6 +114,35 @@ h6 {
     box-sizing: border-box; /* Include padding in width calculations */
 
     position: relative;
+}
+
+#background-section {
+    width: 100%;
+    height: var(--section-height, 100vh);
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1; /* Keep content above the blurred background */
+}
+
+#background-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    z-index: -1; /* Send the background behind the content */
 }
 
 /*#region Global Header */
@@ -233,14 +263,14 @@ h6 {
 .navmenu a:hover,
 .navmenu .active,
 .navmenu .active:focus {
-  color: var(--color-white);
-  background-color: var(--color-accent);
+    color: var(--color-dark);
+    background-color: var(--color-accent);
 }
 
 .navmenu a:hover .navicon,
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 /* #endregion */
 
@@ -513,7 +543,8 @@ section {
 
 .about-me img {
     outline: var(--outline-style);
-    /* border-radius: var(--border-radius); */
+    position: relative;
+    z-index: 1;
 }
 
 .about-me .content {
@@ -827,7 +858,7 @@ section {
 }
 
     .footer .footer-legal .credits a {
-        color: var(--color-accent);
+        color: var(--color-lighter-blue);
     }
 /* #endregion */
 
