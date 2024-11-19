@@ -27,158 +27,108 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style2.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/allGames.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header dark-background d-flex flex-column">
+        <div class="top-section">
+            <div class="profile-img">
+                <img src="assets/img/ivu_pfp.png" alt="" class="img-fluid rounded-circle">
+            </div>
+
+            <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+                <h1 class="sitename">Ivu Creates</h1>
+            </a>
+
+            <div class="social-links text-center">
+                <a href="https://github.com/ivu-u" class="github"><i class="bi bi-github"></i></a>
+                <a href="mailto:jasminecobb.dev@gmail.com" class="google"><i class="bi bi-google"></i></a>
+                <a href="https://www.linkedin.com/in/jasmine-cobb-b920952b4/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+                <!-- <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li> -->
+                <li><a href="all_games.html"><i class="bi bi-file-earmark-text navicon"></i> All Games</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
     <main id="main">
-        <!-- ======= Hero Section ======= -->
-        <section id="main-page" class="main-page">
-            <div class="circle-button" data-aos="fade-in" id="back-button">
-                <img src="assets/img/arrow.png">
-            </div>
+        <section id="background-section" data-image-height="4400" style="--background-image: url('../img/mp_bckgs/featuredArea.png');">
+            <div class="fuzzy-overlay"></div>
+            <div class="allGames">
 
-            <div class="card-container" data-aos="fade-up">
+                <h2 style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100" >All Games</h2>
+                <!-- <p data-aos="fade-up" data-aos-delay="100" >Thank you to my wonderful team! It's because of them I'm able to reach these heights.</p> -->
 
-                <div class="section-header">
-                    <h1>All Games</h1>
-                    <!--<p style="margin-top: -30px;">Am just a person who wants to make cool games :></p> -->
+                <div class="game-grid" data-aos="fade-up" data-aos-delay="100">
+        
+                    <!-- Bonbon -->
+                    <div class="game">
+                        <img src="assets/img/allGames/bonbon.png" class="img-fluid" alt="">
+                        <h4>Bonbon</h4>
+                        <p>Sweets themed turn based RPG</p>
+
+                        <!-- Tags Section -->
+                        <div class="game-tags">
+                            <span class="game-tag">C#</span>
+                            <span class="game-tag">Unity</span>
+                            <span class="game-tag">RPG</span>
+                        </div>
+                    </div> <!-- End Game -->
+        
+                    <!-- Ika -->
+                    <div class="game">
+                        <img src="assets/img/allGames/ika.png" class="img-fluid" alt="">
+                        <h4>Ika</h4>
+                        <p>3D Projectile Battler</p>
+
+                       <!-- Tags Section -->
+                       <div class="game-tags">
+                            <span class="game-tag">GameJam</span>
+                            <span class="game-tag">IK</span>
+                            <span class="game-tag">Unity</span>
+                        </div>
+
+                    </div> <!-- End Game -->
+        
+                  <!-- Voting Sim -->
+                    <div class="game">
+                        <img src="assets/img/allGames/votingSim.png" class="img-fluid" alt="">
+                        <h4>Voting Sim</h4>
+                        <p>Games For Change Division Winner</p>
+
+                        <!-- Tags Section -->
+                        <div class="game-tags">
+                            <span class="game-tag">Unity</span>
+                            <span class="game-tag">Pixel Art</span>
+                            <span class="game-tag">RPG</span>
+                        </div>
+                        
+                    </div> <!-- End Game -->
+
+                    <!-- Able Amigos -->
+                    <div class="game">
+                        <img src="assets/img/allGames/ableAmigos.png" class="img-fluid" alt="">
+                        <h4>Able Amigos</h4>
+                        <span>Two person puzzler platformer</span>
+
+                        <!-- Tags Section -->
+                        <div class="game-tags">
+                            <span class="game-tag">Two Player</span>
+                            <span class="game-tag">Puzzle</span>
+                            <span class="game-tag">Platformer</span>
+                        </div>
+                    </div> <!-- End Game -->
+                    
                 </div>
-
-                <div class="row">
-
-                    <!--Card #1-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="https://github.com/chrysly/project-bonbon" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/allGames/bonLogo.png" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Bonbon</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--Card #2-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="https://lominoe.itch.io/ika " class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/allGames/ikaLogo.png" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Ika</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--Card #3-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="https://vexedev.itch.io/voting-simulator" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/allGames/votingSimLogo.png" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>VotingSim</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="margin-top: 70px;">
-
-                    <!--Card #4-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="https://github.com/ivu-u/WFC_Alg" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/allGames/cyberChaseLogo.png" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Cyber Chase</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--Card #5-->
-                    <div class="col-xl-3 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card-item position-relative h-100">
-
-                            <a href="https://github.com/VexeDev/Able-Amigos" class="scrollto">
-                                <div class="card-box">
-
-                                    <div class="img-container">
-                                        <img src="assets/img/allGames/ableAmigosLogo.png" class="background-img">
-                                    </div>
-
-                                    <div class="content">
-                                        <h1>Able Amigos</h1>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Footer-->
-        <section id="footer" class="footer">
-            <div class="my-container" style="margin-top: 40px;">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <h1>CONTACTS</h1>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 footer-links">
-                        <div class="social-links d-flex mt-3">
-                            <a href="https://github.com/ivu-u" class="d-flex align-items-center justify-content-center"><i class="bi bi-github"></i></a>
-                            <a href="mailto:jasminecobb.dev@gmail.com" class="d-flex align-items-center justify-content-center"><i class="bi bi-google"></i></a>
-                            <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer-legal text-center position-relative" style="margin-top: 25px; margin-bottom: 25px;">
-                    <div class="container">
-                        <div class="copyright">
-                        </div>
-                        <div class="credits">
-                            <!--All the links in the footer should remain intact.
-                            You can delete the links only if you purchased the pro version.
-                            Licensing information: https://bootstrapmade.com/license/
-                            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/-->
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
     </main>
 

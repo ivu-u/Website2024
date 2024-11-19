@@ -1,0 +1,135 @@
+/*#region AllGames Section */
+/*--------------------------------------------------------------
+# AllGames Section
+--------------------------------------------------------------*/
+.allGames h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: var(--font-titles-700);
+    font-size: 65px;
+    font-weight: 700;
+    position: relative;
+    color: var(--color-white);
+}
+
+.allGames h2::before {
+    content: "";
+    width: 60px;
+    height: 8px;
+    background: var(--color-accent);
+    display: inline-block;
+    margin: 0 10px 15px 0px;
+}
+
+.allGames h2::after {
+    content: "";
+    width: 60px;
+    height: 8px;
+    background: var(--color-accent);
+    display: inline-block;
+    margin: 0 0 10px 15px;
+}
+
+.allGames p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* New grid layout for the games */
+.allGames .game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 50px; /* Space between items */
+    justify-items: center; /* Centers items horizontally */
+    padding: 0 10px; /* Add padding around grid */
+}
+
+.allGames .game {
+    background-color: var(--color-blue);
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100%; /* Ensures full width within grid cell */
+    transition: all 0.3s ease-in-out; /* Smooth hover animation */
+}
+  
+  .allGames .game img {
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 280px;
+    width: auto; /* Keep aspect ratio */
+  }
+  
+  .allGames .game .game-content {
+    padding: 0 20px 30px 20px;
+  }
+  
+  .allGames .game h4 {
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    font-size: 20px;
+  }
+  
+  .allGames .game span {
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+    color: color-mix(in srgb, var(--color-white));
+  }
+
+    /* Center button container within each game card */
+    .allGames .game .game-button-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 10%;
+        margin-top: 15px;
+        position: relative;
+        z-index: 1;
+    }
+
+.game-button {
+    background-color: transparent; /* No background for outline */
+    color: var(--color-white); /* Bootstrap primary color for text */
+    border: 2px solid var(--color-white); /* Outline with primary color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 15px; /* Space inside button */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase letters */
+    cursor: pointer;
+}
+
+.game:hover {
+    background-color: var(--color-lightest-blue); /* Fill background on hover */
+    color: var(--color-white); /* White text on hover */
+    transform: translateY(-1px); /* Slight hover effect */
+}
+
+/* Styling the container for the tags */
+.allGames .game .game-tags {
+    display: flex;
+    flex-wrap: wrap; /* Wrap tags to the next line if needed */
+    gap: 8px; /* Space between tags */
+    margin-top: 10px; /* Space between tags and other content */
+    justify-content: center; /* Center the tags horizontally */
+}
+
+/* Individual tag styling */
+.allGames .game .game-tag {
+    background-color: var(--color-lightest-blue); /* Tag background color */
+    color: var(--color-white); /* Text color */
+    padding: 5px 10px; /* Padding inside tag */
+    font-size: 14px; /* Text size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    display: inline-block; /* Ensure tags behave like inline blocks */
+    white-space: nowrap; /* Prevent text wrapping inside tag */
+}
+/* #endregion */
